@@ -5,13 +5,23 @@ createApp({
         return {
             agenda: [
                 {
-                    text: "ciao",
+                    text: "andare dal dottore",
+                    done: false
+                },
+
+                {
+                    text: "fare una ricarica telefonica",
+                    done: false
+                },
+
+                {
+                    text: "scrivere il resto delle commissioni tramite il bottone",
+                    done: false
                 },
                 
             ],
 
             index: 0,
-            done: false,
             newLi: "",
         }
     },

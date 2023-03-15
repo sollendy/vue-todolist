@@ -12,7 +12,7 @@
         <ul class="d-flex flex-column align-items-center pt-2" id="lista">
             <h1 class="">Le mie commissioni</h1>
             <li v-for="(todo, index) in agenda">
-                {{agenda[0].text}} <span @click="deleteLi(index)">&cross;</span>
+                {{agenda[index].text}} <span @click="deleteLi(index)">&cross;;</span>
             </li>
         </ul>
         <div id="input-cnt">
