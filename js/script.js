@@ -11,7 +11,7 @@ createApp({
 
                 {
                     text: "fare una ricarica telefonica",
-                    done: false
+                    done: true
                 },
 
                 {
@@ -23,10 +23,17 @@ createApp({
 
             index: 0,
             newLi: "",
+            
         }
     },
-
+    
     methods: {
+
+        //  changeDone() {
+        //    if (this.agenda.done = true) {
+
+        //    }
+        //  }
 
         deleteLi(index) {
             this.agenda.splice(index, 1);
