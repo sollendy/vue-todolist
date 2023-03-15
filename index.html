@@ -16,7 +16,7 @@
             </li>
         </ul>
         <div id="input-cnt">
-            <input v-model="newLi" type="text" placeholder="aggiungi commissione">
+            <input @keyup.enter="addLi()" v-model="newLi" type="text" placeholder="aggiungi commissione">
             <button @click="addLi()">inserisci</button>
         </div>
 

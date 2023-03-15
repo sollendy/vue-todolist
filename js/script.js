@@ -33,7 +33,11 @@ createApp({
         },
 
         addLi(){
-            this.agenda.push(this.newLi);
+            const newTodo = {
+                text: this.newLi,
+                done: false
+            }
+            this.agenda.push(newTodo);
             this.newLi = "";
         }
 
