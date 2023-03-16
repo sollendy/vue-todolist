@@ -6,17 +6,17 @@ createApp({
             agenda: [
                 {
                     text: "andare dal dottore",
-                    done: false
+                    done: false,
                 },
 
                 {
                     text: "fare una ricarica telefonica",
-                    done: true
+                    done: true,
                 },
 
                 {
                     text: "scrivere il resto delle commissioni tramite il bottone",
-                    done: false
+                    done: false,
                 },
                 
             ],

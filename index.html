@@ -11,7 +11,7 @@
     <div class="d-flex flex-column align-items-center" id="app">
         <ul class="d-flex flex-column align-items-center pt-2" id="lista">
             <h1 class="">Le mie commissioni</h1>
-            <li v-for="(todo, index) in agenda" :style="agenda.done ? {color: red} : '{}' ">
+            <li v-for="(todo, index) in agenda" :style="agenda.done == true ? {textDecoration: 'line-through', color: 'red'} : {} ">
                 {{agenda[index].text}} <span @click="deleteLi(index)">&cross;;</span>
             </li>
         </ul>
