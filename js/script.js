@@ -35,6 +35,10 @@ createApp({
         //    }
         //  }
 
+        // toggleDone(agenda) {
+        //     console.log(agenda);
+        // }
+
         deleteLi(index) {
             this.agenda.splice(index, 1);
         },
